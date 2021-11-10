@@ -2,6 +2,8 @@
 1. Message can have only key-value pair.
 2. If given timestamp, we are to return latest message compare to given timestamp.
 Example,
+
+   
 ````
 --|----|------|-------------
 #  Key  Value  Timestamp
@@ -11,6 +13,7 @@ Example,
 3. Key1 Value3 6.10pm
 --|----|------|-------------
 ````
+
 - If given key "Key1" and timestamp "6.07pm", it would return value "Value3",
 since from timestamp "6.07pm", "Value3" is the 1st latest.
 - If given key "Key1" and timestamp "6.05pm", it would return value "Value2",
