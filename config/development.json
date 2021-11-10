@@ -1,0 +1,5 @@
+{
+    "name": "Vault Dragon - Development",
+    "port": "3000",
+    "connectionString": "mongodb://localhost/vd_local"
+}

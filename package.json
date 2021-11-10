@@ -1,0 +1,45 @@
+{
+  "name": "vaultdragon",
+  "version": "1.0.0",
+  "description": "document management system",
+  "main": "app.js",
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node",
+    "testTimeout": 60000
+  },
+  "scripts": {
+    "test": "jest --verbose",
+    "start": "node ./app.js"
+  },
+  "author": "Hardik",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "debug": "^2.6.9",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "fawn": "^2.1.5",
+    "helmet": "^4.6.0",
+    "jest": "^27.2.1",
+    "joi": "^17.4.0",
+    "joi-objectid": "^3.0.1",
+    "lodash": "^4.17.21",
+    "mime-types": "^2.1.30",
+    "mongoose": "^5.12.10",
+    "morgan": "^1.10.0",
+    "morgan-body": "^2.6.5",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "time-stamp": "^2.2.0",
+    "unix-timestamp": "^0.2.0",
+    "uuid": "^3.3.2",
+    "winston": "^3.3.3"
+  }
+}
